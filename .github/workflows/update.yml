@@ -1,0 +1,39 @@
+name: Update Trackers
+
+on:
+  schedule:
+    # 每天UTC时间00:00执行（北京时间08:00）
+    - cron: '0 0 * * *'
+  workflow_dispatch: # 允许手动触发
+  push:
+    branches:
+      - main
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Update tracker list
+        run: |
+          chmod +x update_trackers.sh
+          ./update_trackers.sh
+
+      - name: Check for changes
+        id: check_changes
+        run: |
+          git diff --quiet trackers.txt || echo "changed=true" >> $GITHUB_OUTPUT
+
+      - name: Commit and push if changed
+        if: steps.check_changes.outputs.changed == 'true'
+        run: |
+          git config --local user.email "github-actions[bot]@users.noreply.github.com"
+          git config --local user.name "github-actions[bot]"
+          git add trackers.txt README.md
+          git commit -m "Auto update trackers - $(date -u +"%Y-%m-%d %H:%M:%S UTC")"
+          git push
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
