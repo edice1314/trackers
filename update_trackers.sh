@@ -12,8 +12,8 @@ TEMP_FILE=$(mktemp)
 
 # 获取tracker列表
 echo "正在从源获取tracker..."
-curl -s https://raw.githubusercontent.com/ngosang/trackerslist/master/trackers_best.txt >> "$TEMP_FILE"
-curl -s https://cf.trackerslist.com/best.txt >> "$TEMP_FILE"
+curl -s https://ngosang.github.io/trackerslist/trackers_all.txt >> "$TEMP_FILE"
+curl -s https://cf.trackerslist.com/all.txt >> "$TEMP_FILE"
 
 # 去除空行、排序并去重
 echo "正在处理和去重..."
@@ -38,12 +38,12 @@ cat > README.md << EOF
 直接使用以下命令获取tracker列表：
 
 \`\`\`bash
-curl -s https://raw.githubusercontent.com/YOUR_USERNAME/trackers/main/trackers.txt
+curl -s https://raw.githubusercontent.com/edice1314/trackers/main/trackers.txt
 \`\`\`
 
 或者在qBittorrent等BT客户端中使用：
 \`\`\`
-https://raw.githubusercontent.com/YOUR_USERNAME/trackers/main/trackers.txt
+https://raw.githubusercontent.com/edice1314/trackers/main/trackers.txt
 \`\`\`
 
 ## 统计信息
@@ -55,8 +55,8 @@ https://raw.githubusercontent.com/YOUR_USERNAME/trackers/main/trackers.txt
 ## 数据源
 
 本项目整合以下tracker列表：
-- [ngosang/trackerslist](https://github.com/ngosang/trackerslist)
-- [trackerslist.com](https://trackerslist.com/)
+- [ngosang/trackerslist - All Trackers](https://ngosang.github.io/trackerslist/trackers_all.txt)
+- [trackerslist.com - All Trackers](https://cf.trackerslist.com/all.txt)
 
 ## 许可证
 
