@@ -28,6 +28,10 @@ echo "完成！共整合 $TRACKER_COUNT 个tracker"
 
 # 更新README中的统计信息
 CURRENT_DATE=$(date -u +"%Y-%m-%d %H:%M:%S UTC")
+
+# 获取GitHub仓库信息
+REPO_URL=$(git config --get remote.origin.url | sed 's/\.git$//' | sed 's|https://github.com/||')
+
 cat > README.md << EOF
 # Tracker List
 
@@ -38,12 +42,12 @@ cat > README.md << EOF
 直接使用以下命令获取tracker列表：
 
 \`\`\`bash
-curl -s https://raw.githubusercontent.com/edice1314/trackers/main/trackers.txt
+curl -s https://raw.githubusercontent.com/$REPO_URL/main/trackers.txt
 \`\`\`
 
 或者在qBittorrent等BT客户端中使用：
 \`\`\`
-https://raw.githubusercontent.com/edice1314/trackers/main/trackers.txt
+https://raw.githubusercontent.com/$REPO_URL/main/trackers.txt
 \`\`\`
 
 ## 统计信息
