@@ -7,12 +7,12 @@
 直接使用以下命令获取tracker列表：
 
 ```bash
-curl -s https://raw.githubusercontent.com/YOUR_USERNAME/trackers/main/trackers.txt
+curl -s https://raw.githubusercontent.com/edice1314/trackers/main/trackers.txt
 ```
 
 或者在qBittorrent等BT客户端中使用：
 ```
-https://raw.githubusercontent.com/YOUR_USERNAME/trackers/main/trackers.txt
+https://raw.githubusercontent.com/edice1314/trackers/main/trackers.txt
 ```
 
 ## 统计信息
