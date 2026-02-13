@@ -17,8 +17,8 @@ https://raw.githubusercontent.com/edice1314/trackers/main/trackers.txt
 
 ## 统计信息
 
-- **Tracker数量**: 153
-- **最后更新**: 2026-02-12 00:42:01 UTC
+- **Tracker数量**: 169
+- **最后更新**: 2026-02-13 00:44:11 UTC
 - **更新频率**: 每天自动更新
 
 ## 数据源
