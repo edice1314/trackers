@@ -15,10 +15,26 @@ curl -s https://raw.githubusercontent.com/edice1314/trackers/main/trackers.txt
 https://raw.githubusercontent.com/edice1314/trackers/main/trackers.txt
 ```
 
+## RouterOS DNS 配置
+
+下载 RouterOS DNS 命令脚本：
+```bash
+curl -s https://raw.githubusercontent.com/edice1314/trackers/main/dns-routeros.rsc
+```
+
+在 RouterOS 终端中导入：
+```
+/tool fetch url="https://raw.githubusercontent.com/edice1314/trackers/main/dns-routeros.rsc" dst-path=dns-routeros.rsc
+/import dns-routeros.rsc
+```
+
+> 注意：此脚本将 tracker 域名 CNAME 到 `cfyd.mingxuele.com`，共 145 条规则。
+
 ## 统计信息
 
 - **Tracker数量**: 169
-- **最后更新**: 2026-02-13 00:44:11 UTC
+- **RouterOS DNS规则**: 145
+- **最后更新**: 2026-02-13 18:39:23 UTC
 - **更新频率**: 每天自动更新
 
 ## 数据源

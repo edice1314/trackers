@@ -26,6 +26,30 @@ rm -f "$TEMP_FILE"
 TRACKER_COUNT=$(wc -l < trackers.txt)
 echo "完成！共整合 $TRACKER_COUNT 个tracker"
 
+# 生成 RouterOS DNS 命令文件
+echo "正在生成 RouterOS DNS 命令..."
+CNAME_TARGET="cfyd.mingxuele.com"
+
+grep -E "^(udp|http|https|wss)://" trackers.txt | \
+    sed -E 's#^[a-z]+://([^:/]+).*#\1#' | \
+    grep -vE '^[0-9]+\.[0-9]+\.[0-9]+\.[0-9]+$' | \
+    grep -vE '^\[' | \
+    awk -F. '{
+        n=NF
+        if (n >= 3 && (length($n) <= 3 || $n ~ /^(com|org|net|edu|gov)$/)) {
+            print $(n-2)"."$(n-1)"."$n
+        } else if (n >= 2) {
+            print $(n-1)"."$n
+        }
+    }' | \
+    sort -u | \
+    while read domain; do
+        echo "/ip dns static add name=$domain type=CNAME cname=$CNAME_TARGET match-subdomain=yes comment=tracker-auto"
+    done > dns-routeros.rsc
+
+DNS_COUNT=$(wc -l < dns-routeros.rsc)
+echo "RouterOS DNS 命令生成完成！共 $DNS_COUNT 条记录"
+
 # 更新README中的统计信息
 CURRENT_DATE=$(date -u +"%Y-%m-%d %H:%M:%S UTC")
 
@@ -50,9 +74,25 @@ curl -s https://raw.githubusercontent.com/$REPO_URL/main/trackers.txt
 https://raw.githubusercontent.com/$REPO_URL/main/trackers.txt
 \`\`\`
 
+## RouterOS DNS 配置
+
+下载 RouterOS DNS 命令脚本：
+\`\`\`bash
+curl -s https://raw.githubusercontent.com/$REPO_URL/main/dns-routeros.rsc
+\`\`\`
+
+在 RouterOS 终端中导入：
+\`\`\`
+/tool fetch url="https://raw.githubusercontent.com/$REPO_URL/main/dns-routeros.rsc" dst-path=dns-routeros.rsc
+/import dns-routeros.rsc
+\`\`\`
+
+> 注意：此脚本将 tracker 域名 CNAME 到 \`$CNAME_TARGET\`，共 $DNS_COUNT 条规则。
+
 ## 统计信息
 
 - **Tracker数量**: $TRACKER_COUNT
+- **RouterOS DNS规则**: $DNS_COUNT
 - **最后更新**: $CURRENT_DATE
 - **更新频率**: 每天自动更新
 
