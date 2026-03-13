@@ -1,3 +1,4 @@
+/ip dns static add name=004430.xyz type=CNAME cname=cfyd.mingxuele.com match-subdomain=yes comment=tracker-auto
 /ip dns static add name=6ahddutb1ucc3cp.ru type=CNAME cname=cfyd.mingxuele.com match-subdomain=yes comment=tracker-auto
 /ip dns static add name=abcvg.info type=CNAME cname=cfyd.mingxuele.com match-subdomain=yes comment=tracker-auto
 /ip dns static add name=aboutbeautifulgallopinghorsesinthegreenpasture.online type=CNAME cname=cfyd.mingxuele.com match-subdomain=yes comment=tracker-auto
@@ -10,6 +11,7 @@
 /ip dns static add name=bvarf.tracker.sh type=CNAME cname=cfyd.mingxuele.com match-subdomain=yes comment=tracker-auto
 /ip dns static add name=cny.fan type=CNAME cname=cfyd.mingxuele.com match-subdomain=yes comment=tracker-auto
 /ip dns static add name=corpscorp.online type=CNAME cname=cfyd.mingxuele.com match-subdomain=yes comment=tracker-auto
+/ip dns static add name=cutie.dating type=CNAME cname=cfyd.mingxuele.com match-subdomain=yes comment=tracker-auto
 /ip dns static add name=darkness.services type=CNAME cname=cfyd.mingxuele.com match-subdomain=yes comment=tracker-auto
 /ip dns static add name=ducks.party type=CNAME cname=cfyd.mingxuele.com match-subdomain=yes comment=tracker-auto
 /ip dns static add name=evan.im type=CNAME cname=cfyd.mingxuele.com match-subdomain=yes comment=tracker-auto
@@ -29,7 +31,6 @@
 /ip dns static add name=myporn.club type=CNAME cname=cfyd.mingxuele.com match-subdomain=yes comment=tracker-auto
 /ip dns static add name=mywaifu.best type=CNAME cname=cfyd.mingxuele.com match-subdomain=yes comment=tracker-auto
 /ip dns static add name=node01.madtia.cc type=CNAME cname=cfyd.mingxuele.com match-subdomain=yes comment=tracker-auto
-/ip dns static add name=node01.torrentonline.cc type=CNAME cname=cfyd.mingxuele.com match-subdomain=yes comment=tracker-auto
 /ip dns static add name=node02.madtia.cc type=CNAME cname=cfyd.mingxuele.com match-subdomain=yes comment=tracker-auto
 /ip dns static add name=ns575949.ip-51-222-82.net type=CNAME cname=cfyd.mingxuele.com match-subdomain=yes comment=tracker-auto
 /ip dns static add name=nyaa.tracker.wf type=CNAME cname=cfyd.mingxuele.com match-subdomain=yes comment=tracker-auto
@@ -53,16 +54,19 @@
 /ip dns static add name=torrentsmd.com type=CNAME cname=cfyd.mingxuele.com match-subdomain=yes comment=tracker-auto
 /ip dns static add name=torrentvpn.club type=CNAME cname=cfyd.mingxuele.com match-subdomain=yes comment=tracker-auto
 /ip dns static add name=tr.abiir.top type=CNAME cname=cfyd.mingxuele.com match-subdomain=yes comment=tracker-auto
+/ip dns static add name=tr.abir.ga type=CNAME cname=cfyd.mingxuele.com match-subdomain=yes comment=tracker-auto
 /ip dns static add name=tr.cili001.com type=CNAME cname=cfyd.mingxuele.com match-subdomain=yes comment=tracker-auto
 /ip dns static add name=tr.kxmp.cf type=CNAME cname=cfyd.mingxuele.com match-subdomain=yes comment=tracker-auto
 /ip dns static add name=tr.nyacat.pw type=CNAME cname=cfyd.mingxuele.com match-subdomain=yes comment=tracker-auto
 /ip dns static add name=tr.zukizuki.org type=CNAME cname=cfyd.mingxuele.com match-subdomain=yes comment=tracker-auto
 /ip dns static add name=tr4ck3r.duckdns.org type=CNAME cname=cfyd.mingxuele.com match-subdomain=yes comment=tracker-auto
+/ip dns static add name=tracker.004430.xyz type=CNAME cname=cfyd.mingxuele.com match-subdomain=yes comment=tracker-auto
 /ip dns static add name=tracker.1h.is type=CNAME cname=cfyd.mingxuele.com match-subdomain=yes comment=tracker-auto
 /ip dns static add name=tracker.alaskantf.com type=CNAME cname=cfyd.mingxuele.com match-subdomain=yes comment=tracker-auto
 /ip dns static add name=tracker.beeimg.com type=CNAME cname=cfyd.mingxuele.com match-subdomain=yes comment=tracker-auto
 /ip dns static add name=tracker.bittor.pw type=CNAME cname=cfyd.mingxuele.com match-subdomain=yes comment=tracker-auto
 /ip dns static add name=tracker.bluefrog.pw type=CNAME cname=cfyd.mingxuele.com match-subdomain=yes comment=tracker-auto
+/ip dns static add name=tracker.breizh.pm type=CNAME cname=cfyd.mingxuele.com match-subdomain=yes comment=tracker-auto
 /ip dns static add name=tracker.bt4g.com type=CNAME cname=cfyd.mingxuele.com match-subdomain=yes comment=tracker-auto
 /ip dns static add name=tracker.ddunlimited.net type=CNAME cname=cfyd.mingxuele.com match-subdomain=yes comment=tracker-auto
 /ip dns static add name=tracker.dhitechnical.com type=CNAME cname=cfyd.mingxuele.com match-subdomain=yes comment=tracker-auto
@@ -75,7 +79,6 @@
 /ip dns static add name=tracker.gcrenwp.top type=CNAME cname=cfyd.mingxuele.com match-subdomain=yes comment=tracker-auto
 /ip dns static add name=tracker.ghostchu-services.top type=CNAME cname=cfyd.mingxuele.com match-subdomain=yes comment=tracker-auto
 /ip dns static add name=tracker.gmi.gd type=CNAME cname=cfyd.mingxuele.com match-subdomain=yes comment=tracker-auto
-/ip dns static add name=tracker.iochimari.moe type=CNAME cname=cfyd.mingxuele.com match-subdomain=yes comment=tracker-auto
 /ip dns static add name=tracker.iperson.xyz type=CNAME cname=cfyd.mingxuele.com match-subdomain=yes comment=tracker-auto
 /ip dns static add name=tracker.ipv6tracker.ru type=CNAME cname=cfyd.mingxuele.com match-subdomain=yes comment=tracker-auto
 /ip dns static add name=tracker.kuroy.me type=CNAME cname=cfyd.mingxuele.com match-subdomain=yes comment=tracker-auto
@@ -100,10 +103,10 @@
 /ip dns static add name=tracker.torrust-demo.com type=CNAME cname=cfyd.mingxuele.com match-subdomain=yes comment=tracker-auto
 /ip dns static add name=tracker.tritan.gg type=CNAME cname=cfyd.mingxuele.com match-subdomain=yes comment=tracker-auto
 /ip dns static add name=tracker.tryhackx.org type=CNAME cname=cfyd.mingxuele.com match-subdomain=yes comment=tracker-auto
-/ip dns static add name=tracker.waaa.moe type=CNAME cname=cfyd.mingxuele.com match-subdomain=yes comment=tracker-auto
 /ip dns static add name=tracker.wepzone.net type=CNAME cname=cfyd.mingxuele.com match-subdomain=yes comment=tracker-auto
 /ip dns static add name=tracker.xn--djrq4gl4hvoi.top type=CNAME cname=cfyd.mingxuele.com match-subdomain=yes comment=tracker-auto
 /ip dns static add name=tracker.yggleak.top type=CNAME cname=cfyd.mingxuele.com match-subdomain=yes comment=tracker-auto
+/ip dns static add name=tracker.yume-hatsuyuki.moe type=CNAME cname=cfyd.mingxuele.com match-subdomain=yes comment=tracker-auto
 /ip dns static add name=tracker.zhuqiy.com type=CNAME cname=cfyd.mingxuele.com match-subdomain=yes comment=tracker-auto
 /ip dns static add name=tracker1.520.jp type=CNAME cname=cfyd.mingxuele.com match-subdomain=yes comment=tracker-auto
 /ip dns static add name=tracker2.dler.org type=CNAME cname=cfyd.mingxuele.com match-subdomain=yes comment=tracker-auto
