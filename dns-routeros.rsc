@@ -103,8 +103,10 @@
 /ip dns static add name=tracker.torrust-demo.com type=CNAME cname=cfyd.mingxuele.com match-subdomain=yes comment=tracker-auto
 /ip dns static add name=tracker.tritan.gg type=CNAME cname=cfyd.mingxuele.com match-subdomain=yes comment=tracker-auto
 /ip dns static add name=tracker.tryhackx.org type=CNAME cname=cfyd.mingxuele.com match-subdomain=yes comment=tracker-auto
+/ip dns static add name=tracker.wepzone.net type=CNAME cname=cfyd.mingxuele.com match-subdomain=yes comment=tracker-auto
 /ip dns static add name=tracker.xn--djrq4gl4hvoi.top type=CNAME cname=cfyd.mingxuele.com match-subdomain=yes comment=tracker-auto
 /ip dns static add name=tracker.yggleak.top type=CNAME cname=cfyd.mingxuele.com match-subdomain=yes comment=tracker-auto
+/ip dns static add name=tracker.yume-hatsuyuki.moe type=CNAME cname=cfyd.mingxuele.com match-subdomain=yes comment=tracker-auto
 /ip dns static add name=tracker.zhuqiy.com type=CNAME cname=cfyd.mingxuele.com match-subdomain=yes comment=tracker-auto
 /ip dns static add name=tracker1.520.jp type=CNAME cname=cfyd.mingxuele.com match-subdomain=yes comment=tracker-auto
 /ip dns static add name=tracker2.dler.org type=CNAME cname=cfyd.mingxuele.com match-subdomain=yes comment=tracker-auto
@@ -117,6 +119,7 @@
 /ip dns static add name=udp1.torrust-tracker-demo.com type=CNAME cname=cfyd.mingxuele.com match-subdomain=yes comment=tracker-auto
 /ip dns static add name=utracker.ghostchu-services.top type=CNAME cname=cfyd.mingxuele.com match-subdomain=yes comment=tracker-auto
 /ip dns static add name=v6.navy type=CNAME cname=cfyd.mingxuele.com match-subdomain=yes comment=tracker-auto
+/ip dns static add name=wepzone.net type=CNAME cname=cfyd.mingxuele.com match-subdomain=yes comment=tracker-auto
 /ip dns static add name=wolf.parrot.run type=CNAME cname=cfyd.mingxuele.com match-subdomain=yes comment=tracker-auto
 /ip dns static add name=www.all4nothin.net type=CNAME cname=cfyd.mingxuele.com match-subdomain=yes comment=tracker-auto
 /ip dns static add name=xn--1r3au8b.space type=CNAME cname=cfyd.mingxuele.com match-subdomain=yes comment=tracker-auto
