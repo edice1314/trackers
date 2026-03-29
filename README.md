@@ -28,13 +28,13 @@ curl -s https://raw.githubusercontent.com/edice1314/trackers/main/dns-routeros.r
 /import dns-routeros.rsc
 ```
 
-> 注意：此脚本将 tracker 域名 CNAME 到 `cfyd.mingxuele.com`，共 135 条规则。
+> 注意：此脚本将 tracker 域名 CNAME 到 `cfyd.mingxuele.com`，共 122 条规则。
 
 ## 统计信息
 
-- **Tracker数量**: 157
-- **RouterOS DNS规则**: 135
-- **最后更新**: 2026-03-28 00:42:42 UTC
+- **Tracker数量**: 145
+- **RouterOS DNS规则**: 122
+- **最后更新**: 2026-03-29 00:48:49 UTC
 - **更新频率**: 每天自动更新
 
 ## 数据源
