@@ -28,7 +28,7 @@ echo "完成！共整合 $TRACKER_COUNT 个tracker"
 
 # 生成 RouterOS DNS 命令文件
 echo "正在生成 RouterOS DNS 命令..."
-CNAME_TARGET="cfyd.mingxuele.com"
+CNAME_TARGET="cflt.mingxuele.com"
 
 grep -E "^(udp|http|https|wss)://" trackers.txt | \
     sed -E 's#^[a-z]+://([^:/]+).*#\1#' | \
