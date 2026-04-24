@@ -32,9 +32,9 @@ curl -s https://raw.githubusercontent.com/edice1314/trackers/main/dns-routeros.r
 
 ## 统计信息
 
-- **Tracker数量**: 154
+- **Tracker数量**: 155
 - **RouterOS DNS规则**: 132
-- **最后更新**: 2026-04-23 00:53:17 UTC
+- **最后更新**: 2026-04-24 00:54:16 UTC
 - **更新频率**: 每天自动更新
 
 ## 数据源
