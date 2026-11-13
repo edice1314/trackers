@@ -36,9 +36,9 @@
 /ip dns static add name=pmman.tech type=CNAME cname=cflt.mingxuele.com match-subdomain=yes comment=tracker-auto
 /ip dns static add name=retracker.hotplug.ru type=CNAME cname=cflt.mingxuele.com match-subdomain=yes comment=tracker-auto
 /ip dns static add name=retracker01-msk-virt.corbina.net type=CNAME cname=cflt.mingxuele.com match-subdomain=yes comment=tracker-auto
+/ip dns static add name=run.place type=CNAME cname=cflt.mingxuele.com match-subdomain=yes comment=tracker-auto
 /ip dns static add name=seedpeer.net type=CNAME cname=cflt.mingxuele.com match-subdomain=yes comment=tracker-auto
 /ip dns static add name=t.213891.xyz type=CNAME cname=cflt.mingxuele.com match-subdomain=yes comment=tracker-auto
-/ip dns static add name=t.overflow.biz type=CNAME cname=cflt.mingxuele.com match-subdomain=yes comment=tracker-auto
 /ip dns static add name=torrent.eu.org type=CNAME cname=cflt.mingxuele.com match-subdomain=yes comment=tracker-auto
 /ip dns static add name=torrents.observer type=CNAME cname=cflt.mingxuele.com match-subdomain=yes comment=tracker-auto
 /ip dns static add name=torrentsmd.com type=CNAME cname=cflt.mingxuele.com match-subdomain=yes comment=tracker-auto
@@ -46,7 +46,6 @@
 /ip dns static add name=tr.abir.ga type=CNAME cname=cflt.mingxuele.com match-subdomain=yes comment=tracker-auto
 /ip dns static add name=tr.burnabyhighstar.com type=CNAME cname=cflt.mingxuele.com match-subdomain=yes comment=tracker-auto
 /ip dns static add name=tr.nyacat.pw type=CNAME cname=cflt.mingxuele.com match-subdomain=yes comment=tracker-auto
-/ip dns static add name=tr3.ysagin.top type=CNAME cname=cflt.mingxuele.com match-subdomain=yes comment=tracker-auto
 /ip dns static add name=tr4ck3r.duckdns.org type=CNAME cname=cflt.mingxuele.com match-subdomain=yes comment=tracker-auto
 /ip dns static add name=tracker.004430.xyz type=CNAME cname=cflt.mingxuele.com match-subdomain=yes comment=tracker-auto
 /ip dns static add name=tracker.23794.top type=CNAME cname=cflt.mingxuele.com match-subdomain=yes comment=tracker-auto
@@ -55,6 +54,7 @@
 /ip dns static add name=tracker.aruku.ovh type=CNAME cname=cflt.mingxuele.com match-subdomain=yes comment=tracker-auto
 /ip dns static add name=tracker.augrains.com type=CNAME cname=cflt.mingxuele.com match-subdomain=yes comment=tracker-auto
 /ip dns static add name=tracker.bittor.pw type=CNAME cname=cflt.mingxuele.com match-subdomain=yes comment=tracker-auto
+/ip dns static add name=tracker.bluefrog.pw type=CNAME cname=cflt.mingxuele.com match-subdomain=yes comment=tracker-auto
 /ip dns static add name=tracker.dhitechnical.com type=CNAME cname=cflt.mingxuele.com match-subdomain=yes comment=tracker-auto
 /ip dns static add name=tracker.dler.com type=CNAME cname=cflt.mingxuele.com match-subdomain=yes comment=tracker-auto
 /ip dns static add name=tracker.dler.org type=CNAME cname=cflt.mingxuele.com match-subdomain=yes comment=tracker-auto
@@ -64,11 +64,9 @@
 /ip dns static add name=tracker.farted.net type=CNAME cname=cflt.mingxuele.com match-subdomain=yes comment=tracker-auto
 /ip dns static add name=tracker.filemail.com type=CNAME cname=cflt.mingxuele.com match-subdomain=yes comment=tracker-auto
 /ip dns static add name=tracker.flatuslifir.is type=CNAME cname=cflt.mingxuele.com match-subdomain=yes comment=tracker-auto
-/ip dns static add name=tracker.fnix.net type=CNAME cname=cflt.mingxuele.com match-subdomain=yes comment=tracker-auto
 /ip dns static add name=tracker.foreverpirates.co type=CNAME cname=cflt.mingxuele.com match-subdomain=yes comment=tracker-auto
 /ip dns static add name=tracker.gmi.gd type=CNAME cname=cflt.mingxuele.com match-subdomain=yes comment=tracker-auto
 /ip dns static add name=tracker.ilibr.org type=CNAME cname=cflt.mingxuele.com match-subdomain=yes comment=tracker-auto
-/ip dns static add name=tracker.internetwarriors.net type=CNAME cname=cflt.mingxuele.com match-subdomain=yes comment=tracker-auto
 /ip dns static add name=tracker.k.vu type=CNAME cname=cflt.mingxuele.com match-subdomain=yes comment=tracker-auto
 /ip dns static add name=tracker.kuroy.me type=CNAME cname=cflt.mingxuele.com match-subdomain=yes comment=tracker-auto
 /ip dns static add name=tracker.nekomi.cn type=CNAME cname=cflt.mingxuele.com match-subdomain=yes comment=tracker-auto
@@ -85,6 +83,7 @@
 /ip dns static add name=tracker.renfei.net type=CNAME cname=cflt.mingxuele.com match-subdomain=yes comment=tracker-auto
 /ip dns static add name=tracker.sela.st type=CNAME cname=cflt.mingxuele.com match-subdomain=yes comment=tracker-auto
 /ip dns static add name=tracker.skyts.net type=CNAME cname=cflt.mingxuele.com match-subdomain=yes comment=tracker-auto
+/ip dns static add name=tracker.theoks.net type=CNAME cname=cflt.mingxuele.com match-subdomain=yes comment=tracker-auto
 /ip dns static add name=tracker.transfur.org type=CNAME cname=cflt.mingxuele.com match-subdomain=yes comment=tracker-auto
 /ip dns static add name=tracker.tryhackx.org type=CNAME cname=cflt.mingxuele.com match-subdomain=yes comment=tracker-auto
 /ip dns static add name=tracker.waaa.moe type=CNAME cname=cflt.mingxuele.com match-subdomain=yes comment=tracker-auto
